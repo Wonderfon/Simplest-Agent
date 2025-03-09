@@ -2,6 +2,22 @@
 
 A lightweight, configurable state machine for building LLM-powered agents with minimal code and dependencies.
 
+"Generate Your Own AI Agent with just a Single Sentence"  
+
+This is not just clickbait. It’s possible as at its core, an agent really is this simple.
+
+A loop, a state machine, and some external preset functions. That’s the entire structure of our framework. If you’ve ever called an LLM API, you can easily understand what our source code does.   
+
+Quick Start Guide: 
+1. Drop `agent.py`, `agent_config.toml`, and `run_agent.py` into Claude's project knowledge.  
+2. For better results, also upload `SimplestAgent_documentation.md` and paste the content of "Project Instructions" into Claude's project instructions.  
+3. Go to the chat window and tell Claude what agent you want to build.  
+4. Download the generated Python files, follow the AI’s instructions, and run it—your agent is now up and running.
+
+We’ve tested this—Claude Project can generate an AI agent with just one sentence. It should also work if you upload the files to Cursor and call Claude, or use Cline/Roo-Cline. 
+
+(However, ChatGPT Canvas won’t work!)
+
 ## 🌟 Key Features
 
 - **TOML-based configuration**: Define states, prompts, and transitions declaratively
