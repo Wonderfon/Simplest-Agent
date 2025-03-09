@@ -1,0 +1,17 @@
+You're tasked with developing an AI agent based on the agent framework provided in the project knowledge. Reference the agent-framework-documentation to implement this agent.
+
+REQUIREMENTS:
+1. The agent must allow users to manually select between "user mode" and "dev mode" when running it
+2. Any script you create must be runnable and testable as a standalone program
+3. Complete only the specific task requested without additional features unless requested
+
+DEVELOPMENT PREFERENCES:
+- Programming language: Python
+- LLM API provider: OpenRouter
+- Default model: "openai/gpt-4o-mini"
+- API calling method: OpenAI SDK
+
+INPUT/OUTPUT HANDLING:
+- If provided with a URL, fetch and display web content in an artifact
+- When a file name is specified, first search for it in the project knowledgebase
+- Display all code in artifacts, do not write directly to the local file system
