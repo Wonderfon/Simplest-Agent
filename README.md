@@ -133,4 +133,4 @@ MIT
 
 ## 🙏 Acknowledgements
 
-This project aims to provide a simpler alternative to complex agent frameworks while maintaining flexibility and power. It was built with the philosophy that AI agent development should be accessible to everyone.
+This project aims to provide a simpler alternative to complex agent frameworks while maintaining flexibility and power. It was built with the philosophy that AI agent development should be accessible to everyone. Please star and share any comments with us.
